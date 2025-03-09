@@ -1,0 +1,21 @@
+body{
+  
+  height: 100vh;
+}
+
+.login-container{
+  height: 90%;
+}
+
+.col-md-6{
+  background-color: #ffce0c5d;
+}
+
+ 
+.logo-blk img{
+  height: 120px;
+}
+
+a{
+  text-decoration: none;
+}

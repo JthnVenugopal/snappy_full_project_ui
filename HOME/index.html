@@ -69,18 +69,27 @@
 
      <!-- hero -------------------------------------------->
      <div class="hero ">
-      <div class=" hero-container container-fluid d-flex flex-column align-content-center justify-content-center">
+      <div class=" hero-container container-fluid d-flex flex-column align-content-center justify-content-center ">
 
               <h2 class="display-1 text-white text-center">Food on wheels</h2>
 
                <!-- book-table-section ------>
 
-               <section class="book-table  my-1 d-flex justify-content-center">
+               <section class="book-table   my-1 d-flex justify-content-center ">
 
-                <div class="col-lg-6 bg-success rounded">
+                <div class="col-lg-6 shadow-lg rounded p-3 book-table-blk">
+
+                  <h4 class="display-6 text-light text-center mb-4">Make a Reservation</h4>
                   
-                  <form action="" method="">
-
+                  <form action="" method="" class=" reservation-form d-flex flex-column align-items-center" >
+                  
+                        <input type="date" class="form-control">
+                        <br>
+                        <input type="time" class="form-control" placeholder="Enter time">
+                        <br>
+                        <input type="number" placeholder="Enter number of persons" class="form-control">
+                        <br>
+                        <button class="btn btn-primary mb-4">Submit</button>
                   </form>
 
                 </div>
@@ -308,44 +317,46 @@
     </div>
 
      <!-- client------------------------------------------->
-    <div class="client mb-5">
+    <div class="client mb-5 bg-info">
       <div class="container h-100 ">  
 
                 <div class="row row-1">          
                   <h6 class="text-center customer-comments display-6 my-4 text-muted" >What our customers says</h6>
                 </div>
 
-                <div class="row-2 row  ">    
+                <div class="row-2 row  bg-success">    
 
-                      <div class="col-md-4 p-2">            
+                      <div class="col-md-4">            
                         
-                        <section class="rounded shadow-lg ">
+                        <section class="rounded shadow-lg">
                           
                           <img src="Resources/Jane smith.jpg" alt="" class="rounded">
 
                           <h6 class="display-6">Jane</h6>
 
-                          <p class="p-2 text-center lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, aliquid.</p>
+                          <p class="p-2 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, aliquid.</p>
+
+                          
 
                         </section>
 
                       </div>
 
-                      <div class="col-md-4 p-2">            
+                      <div class="col-md-4">            
                         
-                        <section class="rounded shadow-lg ">
+                        <section class="rounded shadow-lg">
                           
                           <img src="Resources/john doe.jpg" alt="" class="rounded">
 
                           <h6 class="display-6">John</h6>
 
-                          <p class="p-2 text-center lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, aliquid.</p>
+                          <p class="p-2 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, aliquid.</p>
 
                         </section>
 
                       </div>
 
-                      <div class="col-md-4 p-2">            
+                      <div class="col-md-4">            
                         
                         <section class="rounded shadow-lg ">
                           
@@ -353,7 +364,7 @@
 
                           <h6 class="display-6">Mike</h6>
 
-                          <p class="p-2 text-center lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, aliquid.</p>
+                          <p class="p-2 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, aliquid.</p>
 
                         </section>
 
@@ -434,7 +445,7 @@
 
     <div class=" col-md-3 d-flex align-items-center justify-content-center flex-column p-1">
       <p class="text-light">Address : Snappy Restaurant <br> XYZ street, Banglore</p>
-      <p class="text-light">Phone : 9876543210</p>
+      <p class="text-light">Phone : +919876543210</p>
       <p class="text-light">Email : snappyrestaurant@hotmail.com</p>
       <p class="text-light">Opening Hours : 10.00 AM to 11.00 AM</p>
     </div>
@@ -449,8 +460,8 @@
 
 
   
-     <!-- end -->
-`
+<!-- end -->
+
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
